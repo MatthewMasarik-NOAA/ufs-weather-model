@@ -962,7 +962,7 @@ export WW3_RSTDTHR=12
 WW3_DT_2_RST="$(printf "%02d" $(( WW3_RSTDTHR*3600 )))"
 export WW3_DT_2_RST
 export WW3_OUTDTHR=1
-WW3_DTFLD="$(printf "%02d" $(( WW3_OUTDTHR*3600 )))"
+WW3_DTFLD="720"
 export WW3_DTFLD
 WW3_DTPNT="$(printf "%02d" $(( WW3_OUTDTHR*3600 )))"
 export WW3_DTPNT
@@ -970,7 +970,7 @@ export DTRST=0
 export RSTTYPE=T
 export GOFILETYPE=1
 export POFILETYPE=1
-export WW3_OUTPARS="WND HS FP DP PHS PTP PDIR"
+export WW3_OUTPARS="WND HS FP DP PHS PTP PDIR UST CHA USP"
 export CPLILINE='$'
 export ICELINE='$'
 export WINDLINE='$'
