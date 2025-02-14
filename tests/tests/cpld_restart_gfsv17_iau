@@ -40,3 +40,8 @@ export ODA_INCUPD_UV="False"
 
 # debug
 export WRITE_DOPOST=.false.
+
+
+export WW3_DTFLD=720
+export WW3_DTPNT=720
+

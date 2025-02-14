@@ -128,3 +128,8 @@ export N_SPLIT=5
 # HR4 GFSv17 GWD update
 export DO_GWD_OPT_PSL=.true.
 export DO_GSL_DRAG_SS=.false.
+
+
+export WW3_DTFLD=720
+export WW3_DTPNT=720
+
